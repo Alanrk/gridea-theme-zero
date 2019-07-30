@@ -6,3 +6,6 @@
 - 重启「 Gridea 」客户端
 - 在主题中选择「 space 」主题，点击保存
 - 预览查看效果
+## 主题截图
+### 主页
+![](https://cdn.nlark.com/yuque/0/2019/png/302953/1564474125626-assets/web-upload/79b099ab-6413-4d54-b921-1a4081392cd1.png)
