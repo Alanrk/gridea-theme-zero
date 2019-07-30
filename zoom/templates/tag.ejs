@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
+  </head>
+  <body>
+    <div class="main animated">
+      <%- include('./includes/header') %>
+
+<div class="autopagerize_page_element">
+  <div class="content">
+    <% posts.forEach(function(post) { %> 
+    <div class="post animated fadeInDown">
+      <div class="post_title">
+        <h2><a href="<%= post.link %>" ><%= post.title %></a>
+
+        </h2>
+      </div>
+
+      <div class="list">
+        <div class="post_content">
+          <p><%- post.abstract %></p>
+
+        </div>
+
+      </div>
+
+      <div class="post_footer">
+        <div class="meta">
+          <div class="info"><span class="field"><i class="fa fa-sun-o"></i>
+<span class="date"><%= post.dateFormat %></span>
+</span>
+<span class="field tags"><i class="fa fa-flask"></i>
+<% post.tags.forEach(function(tag) { %>
+  <a href="<%= tag.link %>" class="tag"><%= tag.name %></a>
+
+<% }); %>
+
+</span>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+<% }); %> 
+
+
+<div class="paginator pager pagination" >
+  <% if (pagination.next) { %>
+  <div class="paginator_container pagination_container"><a href="<%= pagination.next %>"  class="btn next older-posts older_posts">¸üÔçµÄÎÄÕÂ</a>
+<% } %>
+
+
+
+    <div style="clear:both;height:0;"></div>
+
+
+  </div>
+
+</div>
+
+
+
+  </div>
+
+</div>
+
+
+
+    </div>
+
+<%- include('./includes/footer') %>
+
+  </body>
+
+</html>
