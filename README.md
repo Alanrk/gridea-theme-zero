@@ -1,5 +1,6 @@
 # Gridea-theme-zoom
 一款简洁专注于写作的Gridea博客主题，示例网站-https://kveln.cn/
+网站主题移植参考自https://blog.caicai.me/
 ## 安装方法
 - 克隆项目到本地，或者从百度网盘下载链接：https://pan.baidu.com/s/1TuXPy9LiplTeYtpUDEQW_Q 提取码：yi2n 
 - 复制「 zoom 」目录到「 Gridea 」主题文件中
