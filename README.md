@@ -10,9 +10,3 @@
 2019.11.2-主页导航更新
 
 2019.8.5-文章内英文单词换行问题，优化底部svg体积
-
-## 主题截图
-### 主页
-![](https://cdn.nlark.com/yuque/0/2019/png/302953/1564474125626-assets/web-upload/79b099ab-6413-4d54-b921-1a4081392cd1.png)
-### 归档页
-![](https://cdn.nlark.com/yuque/0/2019/png/302953/1564474365981-assets/web-upload/2d4ceb9e-ee45-46c9-9ba6-14ab12b48726.png)
